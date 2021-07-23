@@ -1,43 +1,16 @@
 # -*- coding: utf8 -*-
 
 def addition(a, b):
-    # '''
-    # Input:
-    #   -a: 실수 값 (Integer of float)
-    #   -b: 실수 값 (Integer of float)
-    # Output:
-    #   -두 값의 합
-    # Examples:
-    #   >>> addition(3,5)
-    #   8
-    #   >>> addition(3,2)
-    #   5
-    # '''
-    # pass
-    # ===Modify codes below=============
+
 
     result = a + b
 
-    # ==================================
 
     return result
 
 
 def minus(a, b):
-    # '''
-    # Input:
-    #   -a: 실수 값 (Integer of float)
-    #   -b: 실수 값 (Integer of float)
-    # Output:
-    #   -두 값의 차
-    # Examples:
-    #   >>> minus(3,5)
-    #   -2
-    #   >>> minus(3,2)
-    #   1
-    # '''
-    # pass
-    # ===Modify codes below=============
+
 
     result = a - b
 
@@ -47,20 +20,7 @@ def minus(a, b):
 
 
 def multiplication(a, b):
-    # '''
-    # Input:
-    #   -a: 실수 값 (Integer of float)
-    #   -b: 실수 값 (Integer of float)
-    # Output:
-    #   -두 값의 곱
-    # Examples:
-    #   >>> multiplication(3,5.1)
-    #   15.3
-    #   >>> multiplication(3,2)
-    #   6
-    # '''
-    # pass
-    # ===Modify codes below=============
+
 
     result =  a * b
 
@@ -70,20 +30,7 @@ def multiplication(a, b):
 
 
 def division(a, b):
-    # '''
-    # Input:
-    #   -a: 실수 값 (Integer of float)
-    #   -b: 실수 값 (Integer of float)
-    # Output:
-    #   -a를 b로 나눈 값
-    # Examples:
-    #   >>> division(5,5)
-    #   1
-    #   >>> division(4,2)
-    #   2
-    # '''
-    # pass
-    # ===Modify codes below=============
+
 
     result = a / b
 
