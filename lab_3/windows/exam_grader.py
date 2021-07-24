@@ -3,20 +3,19 @@
 
 # 총 과목 수를 Console를 통해 받기
 def get_number_of_subjects():
-
     print("과목수를 입력하세요: ")
 
     number_of_subjects = int(input())
 
     return number_of_subjects
 
-def get_average_score(total_score, number_of_subjects):
 
+def get_average_score(total_score, number_of_subjects):
     return total_score / number_of_subjects
+
 
 # Help Funtion - 수정하지 말 것
 def sum_of_scores(number_of_subjects):
-
     total_score = 0
     for i in range(number_of_subjects):
         message = str(i + 1) + "번째 과목의 점수를 입력하세요 : "
@@ -54,6 +53,7 @@ def main():
 
     print("===========================")
     print("End of Exame Grader Program")
+
 
 if __name__ == '__main__':
     main()
